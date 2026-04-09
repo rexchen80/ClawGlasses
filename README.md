@@ -1,7 +1,8 @@
 # 龙虾眼镜（Lobster Glasses）
-一个基于OpenClaw的AI硬件眼镜项目，集成眼动追踪摄像头技术，只需注视目标“龙虾”，即可向对应的OpenClaw实例发送语音提示指令。
 
-![Logo]([https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png](https://github.com/rexchen80/ClawGlasses/blob/main/cover.jpg))
+![封面](cover.jpg)
+
+一个基于OpenClaw的AI硬件眼镜项目，集成眼动追踪摄像头技术，只需注视目标“龙虾”，即可向对应的OpenClaw实例发送语音提示指令。
 
 🌟 项目概述
 
