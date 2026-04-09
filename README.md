@@ -1,2 +1,20 @@
-# ClawGlasses
-An AI hardware glasses project based on OpenClaw, integrating eye-tracking camera technology to enable voice prompt commands to specific OpenClaw instances by simply gazing at the target "openclaw".
+# 龙虾眼镜（Lobster Glasses）
+一个基于OpenClaw的AI硬件眼镜项目，集成眼动追踪摄像头技术，只需注视目标“龙虾”，即可向对应的OpenClaw实例发送语音提示指令。
+
+🌟 项目概述
+
+龙虾眼镜（Lobster Glasses）是一款基于OpenClaw开源自主AI代理框架开发的创新AI硬件眼镜解决方案。它将高精度眼动追踪摄像头技术与语音交互相结合，重新定义了与OpenClaw代理的交互方式。核心设计理念简洁易懂：当你佩戴龙虾眼镜，注视某个特定目标（沿用OpenClaw的甲壳类命名风格，将目标称为“龙虾”）时，眼镜会自动识别你的注视焦点，生成对应的语音提示，并将其发送至匹配的OpenClaw实例——实现无需动手、直观便捷地同时控制多个OpenClaw代理。
+
+OpenClaw作为一款免费、开源的自主AI代理，可在本地设备上运行，能将大型语言模型与各类服务、平台相连。龙虾眼镜通过新增视觉交互层，扩展了OpenClaw的使用场景，让多OpenClaw实例的管理无需手动输入或复杂的指令切换。
+
+🔧 核心功能
+
+- 眼动焦点识别：搭载高精度眼动追踪摄像头（参考低功耗、小型化眼动追踪模组设计），可精准识别你注视的目标“龙虾”，延迟低（<5ms）、识别精度高。
+
+- OpenClaw原生集成：与OpenClaw框架无缝对接，支持与多个OpenClaw实例通信，可直接向目标实例发送自定义语音提示指令。
+
+- 免动手语音提示：根据注视焦点自动生成并发送语音提示，无需手动输入或按键操作，支持自定义提示模板。
+
+- 本地数据安全：遵循OpenClaw“隐私优先”的设计理念，所有注视数据和交互记录均存储在本地，保障数据安全与隐私保护。
+
+- 轻量化可穿戴：采用轻量化设计（参考超轻AI眼镜规格），佩戴舒适，适合长时间使用，适配日常各类场景。
