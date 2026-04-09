@@ -66,7 +66,7 @@ def run_agent(instruction: str, api_key: str):
 
 if __name__ == "__main__":
     # 使用用户提供的 API Key
-    api_key = "8a6239a1e42f3c2411f39b1926f0fcb7.Q6bU8id0xQyGHFIz"
+    api_key = "your key"
     instruction = "打开Chrome浏览器，搜索'希尔顿大床房'"
     print(f"当前任务: {instruction}")
     run_agent(instruction, api_key)
